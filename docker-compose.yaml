@@ -1,0 +1,23 @@
+version: '3'
+services:
+  database:
+    container_name: mongodb
+    image: mongo
+    restart: always
+    environment:
+      - MONGO_INITDB_ROOT_USERNAME:admin
+      - MONGO_INITDB_ROOT_PASSWORD:admin
+      - MONGO_INITDB_DATABASE:admin
+    ports:
+      - 27017:27017
+    volumes:
+      - ./database:/data/db
+
+  flaskapp:
+    container_name: webapp
+    restart: always
+    build: .
+    ports:
+      - 5000:5000
+    depends_on:
+      - database
