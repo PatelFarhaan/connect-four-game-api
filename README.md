@@ -30,10 +30,9 @@ Once you have the application up and running, you can access all the apis by imp
 ```https://www.getpostman.com/collections/2c95c34394fbffe8f2f3```
 
 
-(If you dont want to run this application, and directly call the apis, import this deployed apis)
 ### For Prod
 ```https://www.getpostman.com/collections/1ade6fd3ca8b20688ed9```
-
+(If you dont want to run this application, and directly call the apis, import this deployed apis)
 
 # Points to Consider:
 1. Python3 and pip3 should be installed if you are running on your local machine without using docker
