@@ -11,7 +11,7 @@ from project.game.logic import get_board, is_valid, get_current_null_position, s
 #<==================================================================================================>
 #                                          BLUEPRINTS
 #<==================================================================================================>
-api_blueprint = Blueprint('apis', __name__, url_prefix="/drop_token")
+api_blueprint = Blueprint('apis', __name__, url_prefix="/api/v1/")
 
 
 #<==================================================================================================>
