@@ -25,4 +25,11 @@ If you have docker client installed on your machine, just clone this repo and ty
 ## API LIST:
 
 Once you have the application up and running, you can access all the apis by importing this collection in your postman:
+### For Dev:
+
+```https://www.getpostman.com/collections/2c95c34394fbffe8f2f3```
+
+
+(If you dont want to run this application, and directly call the apis, import this deployed apis)
+### For Prod
 ```https://www.getpostman.com/collections/2c95c34394fbffe8f2f3```
